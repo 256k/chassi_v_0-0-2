@@ -1,0 +1,243 @@
+body {
+  width: 100%;
+  height: 100%; }
+
+.navwrapper {
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .navwrapper a {
+    text-decoration: none;
+    color: inherit; }
+  .navwrapper * {
+    color: white; }
+  .navwrapper h1 {
+    margin: 0;
+    padding: 10px; }
+  .navwrapper .navitems {
+    padding: 10px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 600px; }
+    .navwrapper .navitems .navitem {
+      font-size: 24px; }
+
+.landingpage {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  border: 5px solid white;
+  background-image: url("../assets/landingbk.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .landingpage h1, .landingpage h3 {
+    color: white;
+    padding: 0;
+    margin: 0; }
+
+.aboutwrapper {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  border: 5px solid white;
+  background: #7cb2df;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .aboutwrapper h3 {
+    color: white;
+    width: 60%;
+    max-width: 600px;
+    line-height: 1.5;
+    text-align: center; }
+
+.navprojects * {
+  color: #333; }
+
+.projectwrapper {
+  padding-top: 80px;
+  width: 100%;
+  height: 100vmin;
+  box-sizing: border-box;
+  border: 5px solid white;
+  background: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 600px;
+  min-width: 300px; }
+
+.project1 {
+  background-image: url("../assets/project1.jpg"); }
+
+.project2 {
+  background-image: url("../assets/project2.jpg"); }
+
+.project3 {
+  background-image: url("../assets/project3.jpg"); }
+
+.project4 {
+  background-image: url("../assets/project4.jpg"); }
+
+.project5 {
+  background-image: url("../assets/project5.jpg"); }
+
+.project6 {
+  background-image: url("../assets/project6.jpg"); }
+
+.projectbox {
+  border: 2px solid #333;
+  width: 45%;
+  height: 150px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: cover;
+  background-position: center; }
+  .projectbox h4 {
+    color: white; }
+
+@media screen and (max-width: 650px) {
+  .projectbox {
+    width: 90%;
+    margin: 5px; }
+
+  .projectwrapper {
+    height: 100%; } }
+.contactwrapper {
+  padding-top: 80px;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  border: 5px solid white;
+  background: #333;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .contactwrapper h3 {
+    width: 70%;
+    max-width: 600px;
+    text-align: center;
+    color: white;
+    line-height: 1.4; }
+  .contactwrapper .button {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    border: 2px solid white;
+    width: 30%;
+    height: 50px; }
+
+@media screen and (max-width: 650px) {
+  h3 {
+    font-size: 18px; } }
