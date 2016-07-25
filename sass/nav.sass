@@ -1,0 +1,51 @@
+.title
+  width: 20%
+  font-size: 3em
+  display: inline-block
+  flex-grow: 1
+  text-align: center
+.navitem
+  display: inline-block
+  text-align: center
+  flex-grow: 1
+  font-size: 2em
+.hamburger
+  position: absolute
+  top: 10px
+  right: 20px
+  font-size: 2em
+.navitems
+  width: 60%
+  flex-grow: 1
+  display: flex
+  align-items: center
+.wrapper
+  display: flex
+  width: 100%
+
+#menudrop
+  transition: height 300ms ease-in-out
+  z-index: 10
+  height: 0
+  background: rgba(0, 0, 0, 0.95)
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  overflow: hidden
+  a
+    display: block
+    width: 100%
+    text-align: center
+    color: white
+    margin: 40px 0
+  .closemenu
+    width: 100%
+    font-size: 60px
+    color: white
+    padding: 0 50px
+    text-align: right
+
+.openmenu-action
+  height: 100% !important
