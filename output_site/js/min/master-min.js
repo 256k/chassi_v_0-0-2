@@ -1,1 +1,1 @@
-$("document").ready(function(){$(".closemenu").on("click",function(){$("#menudrop").removeClass("openmenu-action")}),$(".hamburger > span").on("click",function(){$("#menudrop").addClass("openmenu-action")})});
+$("document").ready(function(){$(".closemenu").on("click",function(){$("#menudrop").removeClass("openmenu-action"),$("html").removeClass("stopscroll")}),$(".hamburger > span").on("click",function(){$("#menudrop").addClass("openmenu-action"),$("html").addClass("stopscroll")})});
